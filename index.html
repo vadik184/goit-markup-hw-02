@@ -15,70 +15,72 @@
   </head>
   <body>
     <header class="header">
-      <nav class="header-nav">
-        <a href="./index.html" class="header-nav-logo">WebStudio</a>
-        <ul class="header-nav-list">
-          <li><a href="" class="header-nav-link">Studio</a></li>
-          <li>
-            <a href="./portfolio.html" class="header-nav-link">Portfolio</a>
+      <nav class="navigation">
+        <a href="./index.html" class="upper-logo"
+          ><span class="up-logo-blue">Web</span>Studio</a
+        >
+        <ul class="navigation-menu-list">
+          <li class="navigation-menu-item">
+            <a href="" class="navigation-menu-link">Studio</a>
           </li>
-          <li><a href="" class="header-nav-link">Contacts</a></li>
+          <li class="navigation-menu-item">
+            <a href="./portfolio.html" class="navigation-menu-link"
+              >Portfolio</a
+            >
+          </li>
+          <li class="navigation-menu-item">
+            <a href="" class="navigation-menu-link">Contacts</a>
+          </li>
         </ul>
       </nav>
 
-      <address class="header-address">
-        <ul class="header-address-list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="header-address-link"
-              >info@devstudio.com</a
-            >
+      <address class="upper-address">
+        <ul class="upper-address-list">
+          <li class="upper-address-item">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li>
-            <a href="tel:+110001111111" class="header-address-link"
-              >+11 (000) 111-11-11</a
-            >
+          <li class="upper-address-item">
+            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
     </header>
 
-    <main class="main">
-      <section class="first-section">
-        <!--секція №1 герой-->
-        <h1 class="first-section-title">
-          Effective Solutions for Your Business
-        </h1>
-        <button type="button" class="first-section-btn">Order Service</button>
+    <main>
+      <section class="hero">
+        <!--секція герой-->
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="hero-btn">Order Service</button>
       </section>
 
-      <section class="second-section">
-        <!-- секція №2, не має назви -->
+      <section class="section-info">
+        <!-- section info -->
         <h2 hidden>feature</h2>
-        <ul class="second-section-list">
-          <li class="second-section-item">
-            <h3 class="second-section-subtitle">Strategy</h3>
-            <p class="second-section-text">
+        <ul class="info-list">
+          <li class="info-item">
+            <h3 class="info-subtitle">Strategy</h3>
+            <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li class="second-section-item">
-            <h3 class="second-section-subtitle">Punctuality</h3>
-            <p class="second-section-text">
+          <li class="info-item">
+            <h3 class="info-subtitle">Punctuality</h3>
+            <p class="info-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li class="second-section-item">
-            <h3 class="second-section-subtitle">Diligence</h3>
-            <p class="second-section-text">
+          <li class="info-item">
+            <h3 class="info-subtitle">Diligence</h3>
+            <p class="info-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li class="second-section-item">
-            <h3 class="second-section-subtitle">Technologies</h3>
-            <p class="second-section-text">
+          <li class="info-item">
+            <h3 class="info-subtitle">Technologies</h3>
+            <p class="info-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -86,11 +88,11 @@
         </ul>
       </section>
 
-      <section class="third-section">
-        <!--секція №3, Чим ми займаємося-->
-        <h2 class="third-section-title">What are we doing</h2>
-        <ul>
-          <li class="third-section-img">
+      <section class="works">
+        <!--секція, Чим ми займаємося-->
+        <h2 class="works-title">What are we doing</h2>
+        <ul class="works-list">
+          <li class="works-items">
             <img
               src="./images/section_3_img_1.jpg"
               alt="mac image"
@@ -98,7 +100,7 @@
               height="300"
             />
           </li>
-          <li class="third-section-img">
+          <li class="works-items">
             <img
               src="./images/section_3_img_2.jpg"
               alt="smartphone"
@@ -106,7 +108,7 @@
               height="300"
             />
           </li>
-          <li class="third-section-img">
+          <li class="works-items">
             <img
               src="./images/section_3_img_3.jpg"
               alt="hand with smartphone"
@@ -117,60 +119,58 @@
         </ul>
       </section>
 
-      <section class="fourth-section">
-        <!--секція №4, наша команда -->
-        <h2 class="fourth-section-title">Our Team</h2>
-        <ul class="fourth-section-list">
-          <li class="fourth-section-items">
+      <section class="team">
+        <!--секція, наша команда -->
+        <h2 class="team-title">Our Team</h2>
+        <ul class="team-list">
+          <li class="team-items">
             <img
               src="./images/section_4_img_1.jpg"
               alt="Mark Guerrero photo"
               width="264"
-              class="fourth-section-img"
             />
 
-            <h3 class="fourth-section-subtitle">Mark Guerrero</h3>
-            <p class="fourth-section-text">Product Designer</p>
+            <h3 class="team-subtitle">Mark Guerrero</h3>
+            <p class="team-text">Product Designer</p>
           </li>
-          <li class="fourth-section-items">
+          <li class="team-items">
             <img
               src="./images/section_4_img_2.jpg"
               alt="Tom Ford photo"
               width="264"
-              class="fourth-section-img"
             />
 
-            <h3 class="fourth-section-subtitle">Tom Ford</h3>
-            <p class="fourth-section-text">Frontend Developer</p>
+            <h3 class="team-subtitle">Tom Ford</h3>
+            <p class="team-text">Frontend Developer</p>
           </li>
-          <li class="fourth-section-items">
+          <li class="team-items">
             <img
               src="./images/section_4_img_3.jpg"
               alt="Camila Garcia photo"
               width="264"
-              class="fourth-section-img"
             />
 
-            <h3 class="fourth-section-subtitle">Camila Garcia</h3>
-            <p class="fourth-section-text">Marketing</p>
+            <h3 class="team-subtitle">Camila Garcia</h3>
+            <p class="team-text">Marketing</p>
           </li>
-          <li class="fourth-section-items">
+          <li class="team-items">
             <img
               src="./images/section_4_img_4.jpg"
               alt="Daniel Wilson photo"
               width="264"
-              class="fourth-section-img"
             />
 
-            <h3 class="fourth-section-subtitle">Daniel Wilson</h3>
-            <p class="fourth-section-text">UI Designer</p>
+            <h3 class="team-subtitle">Daniel Wilson</h3>
+            <p class="team-text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
     <footer class="footer">
-      <a href="./index.html" class="footer-logo">WebStudio</a>
+      <a href="./index.html" class="footer-logo"
+        ><span class="lower-logo-blue">Web</span>Studio</a
+      >
 
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
