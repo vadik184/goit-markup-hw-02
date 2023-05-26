@@ -15,7 +15,7 @@
 /**-----------P A G E    1---------------**/
 
 body {
-  font-family: "rodoto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: regular;
   font-size: 16px;
@@ -27,17 +27,24 @@ body {
 
 /**--------navigator-------**/
 
+.header a {
+  text-decoration: none;
+}
 .upper-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--dark);
+  color: var(--primary-band);
   text-decoration: none;
+  text-transform: uppercase;
 }
 .up-logo-blue {
-  color: var(--primary-band);
+  color: var(--dark);
+}
+.list {
+  list-style: none;
 }
 .navigation-menu-list {
   font-weight: 500;
@@ -51,6 +58,11 @@ body {
 }
 .navigation-menu-link {
   text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark);
 }
 .navigation-menu-link:hover {
   color: var(--pressed-state);
@@ -94,7 +106,7 @@ body {
   color: var(--white-background);
 }
 .hero-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   cursor: pointer;
   background-color: #4d5ae5;
@@ -168,7 +180,7 @@ body {
   background-color: var(--modal-overlay);
 }
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -195,7 +207,7 @@ body {
 .portfolio-menu-btn {
   background-color: var(--light);
   color: var(--primary-band);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
