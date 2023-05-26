@@ -12,6 +12,7 @@
   --white-background: #ffffff;
   --modal-background: #fcfcfc;
 }
+/**-----------P A G E    1---------------**/
 
 body {
   font-family: "rodoto", sans-serif;
@@ -183,4 +184,35 @@ body {
   font-weight: 400;
   letter-spacing: 0.02em;
   color: var(--light);
+}
+
+/**-----------P A G E    2---------------**/
+
+/**--------section potfolio menu--------**/
+.portfolio-menu-list {
+  list-style-type: none;
+}
+.portfolio-menu-btn {
+  background-color: var(--light);
+  color: var(--primary-band);
+}
+.portfolio-menu-btn:hover {
+  background-color: var(--pressed-state);
+  color: var(--white-background);
+}
+
+/**------------portfolio----------**/
+
+.portfolio-list {
+  list-style-type: none;
+}
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark);
+}
+.portfolio-text {
+  font-weight: 400;
+  letter-spacing: 0.02em;
 }
