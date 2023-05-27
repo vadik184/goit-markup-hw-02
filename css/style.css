@@ -65,7 +65,7 @@ body {
 .navigation-menu-link:focus {
   color: var(--pressed-state);
 }
-address {
+.upper-address {
   font-style: normal;
 }
 
