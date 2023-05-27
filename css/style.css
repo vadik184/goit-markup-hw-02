@@ -138,23 +138,34 @@ body {
   letter-spacing: 0.02em;
 }
 
-/**-------------section with images-----------**/
+/**-------------section works-----------**/
 
 .works-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: var(--dark);
 }
 
 /**---------------section team--------------**/
+
+.team {
+  background-color: var(--light);
+}
+.team-item {
+  background-color: var(--white-background);
+}
 
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: var(--dark);
 }
 
