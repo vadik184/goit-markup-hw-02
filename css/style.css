@@ -186,6 +186,9 @@ body {
 .footer {
   background-color: var(--modal-overlay);
 }
+.link {
+  text-decoration: none;
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
