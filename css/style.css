@@ -59,6 +59,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark);
 }
+.link:hover {
+  color: var(--pressed-state);
+}
+.link:focus {
+  color: var(--pressed-state);
+}
+
 .navigation-menu-link:hover {
   color: var(--pressed-state);
 }
@@ -84,10 +91,10 @@ body {
   color: var(--text);
 }
 
-.upper-address-items a:hover {
+.upper-address-link a:hover {
   color: var(--pressed-state);
 }
-.upper-address-items a:focus {
+.upper-address-link a:focus {
   color: var(--pressed-state);
 }
 .upper-address-list a {
@@ -155,7 +162,7 @@ body {
 .team {
   background-color: var(--light);
 }
-.team-items {
+.team-item {
   background-color: var(--white-background);
 }
 
