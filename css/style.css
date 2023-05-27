@@ -27,9 +27,6 @@ body {
 
 /**--------navigator-------**/
 
-.header a {
-  text-decoration: none;
-}
 .upper-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -53,9 +50,7 @@ body {
 .navigation-menu-list a {
   color: var(--dark);
 }
-.navigation-menu-item {
-  list-style-type: none;
-}
+
 .navigation-menu-link {
   text-decoration: none;
   font-weight: 500;
@@ -75,15 +70,16 @@ body {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-.upper-address-list {
-  text-decoration: none;
-}
 .upper-address-link {
-  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
 }
-.upper-address-list {
-  list-style-type: none;
-}
+
 .upper-address-items a:hover {
   color: var(--pressed-state);
 }
@@ -126,9 +122,6 @@ body {
 
 /**-------------section info--------------**/
 
-.info-list {
-  list-style-type: none;
-}
 .info-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -150,9 +143,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark);
 }
-.works-list {
-  list-style-type: none;
-}
 
 /**---------------section team--------------**/
 
@@ -163,9 +153,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark);
 }
-.team-list {
-  list-style-type: none;
-}
+
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -205,9 +193,7 @@ body {
 /**-----------P A G E    2---------------**/
 
 /**--------section potfolio menu--------**/
-.portfolio-menu-list {
-  list-style-type: none;
-}
+
 .portfolio-menu-btn {
   background-color: var(--light);
   color: var(--primary-band);
@@ -226,9 +212,6 @@ body {
 
 /**------------portfolio----------**/
 
-.portfolio-list {
-  list-style-type: none;
-}
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
