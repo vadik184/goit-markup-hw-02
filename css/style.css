@@ -213,7 +213,7 @@ body {
 
 /**--------section potfolio menu--------**/
 
-.portfolio-menu-btn {
+.portfolio-btn {
   background-color: var(--light);
   color: var(--primary-band);
   font-family: "Roboto", sans-serif;
@@ -224,7 +224,7 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.portfolio-menu-btn:hover {
+.portfolio-btn:hover {
   background-color: var(--pressed-state);
   color: var(--white-background);
 }
