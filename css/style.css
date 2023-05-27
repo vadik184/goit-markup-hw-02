@@ -59,10 +59,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark);
 }
-.link:hover {
+.navigation-menu-link:hover {
   color: var(--pressed-state);
 }
-.link:focus {
+.navigation-menu-link:focus {
   color: var(--pressed-state);
 }
 .upper-address {
