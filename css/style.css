@@ -37,7 +37,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
-.up-logo-blue {
+.up-logo-grey {
   color: var(--dark);
 }
 .list {
@@ -179,10 +179,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--light);
-}
-.lower-logo-blue {
   color: var(--primary-band);
+}
+.lower-logo-light {
+  color: var(--light);
 }
 .footer-text {
   font-weight: 400;
